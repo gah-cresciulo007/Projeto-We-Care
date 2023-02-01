@@ -60,7 +60,7 @@ img {
 }
 
 .first-section {
-   margin: 144px 86px 183px 125px;
+    margin: 144px 86px 183px 125px;
 }
 
 h1 {
@@ -79,10 +79,10 @@ h2 {
 p {
     width: 515px;
     height: 87px;
-   font-weight: 400;
-   color: #848484; 
-   font-size: 24px;
-   margin-bottom: 60px;
+    font-weight: 400;
+    color: #848484;
+    font-size: 24px;
+    margin-bottom: 60px;
 }
 
 .second-section {
@@ -98,7 +98,7 @@ p {
     border-radius: 30px;
     padding: 15px 46px;
     cursor: pointer;
-    filter:drop-shadow(0 4px 4px rgba(0,0,0,0.25))
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25))
 }
 
 .button-ex:hover {
@@ -107,4 +107,54 @@ p {
 
 .button-ex:active {
     opacity: 0.2;
+}
+
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        cursor: pointer;
+    }
+
+    .first-section {
+        margin: 149px 22px 24px 22px;
+    }
+
+    .second-section {
+        margin: 24px 63px 0px 64px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        margin-top: 7px;
+    }
+
+    .button-ex {
+        height: 64px;
+        width: 239px;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 133px;
+    }
 }
